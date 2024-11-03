@@ -1,0 +1,29 @@
+.App {
+    text-align: center;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    margin-bottom: 80px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .container {
+    position: absolute;
+    top: 10;
+    border: 1px solid #d8d1d1;
+    padding: 11px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap; /* This allows items to wrap to the next line */
+  gap: 63px;       /* Adds a 20px gap between items */
+  justify-content: flex-start; /* Aligns items to the left */
+  margin-top: 10px;
+}
